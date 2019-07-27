@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CodeGenerator/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CodeGenerator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeGenerator.dll": {}
+        }
+      },
+      "sc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/sc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeGenerator/1.0.0": {
+      "type": "project",
+      "path": "../CodeGenerator/CodeGenerator.csproj",
+      "msbuildProject": "../CodeGenerator/CodeGenerator.csproj"
+    },
+    "sc/1.0.0": {
+      "type": "project",
+      "path": "../ShaderCompiler/ShaderCompiler.csproj",
+      "msbuildProject": "../ShaderCompiler/ShaderCompiler.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "CodeGenerator >= 1.0.0",
+      "sc >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wenyunchun\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\wenyunchun\\Desktop\\WpfTPL\\ShaderPan\\ShaderPan.csproj",
+      "projectName": "ShaderPan",
+      "projectPath": "C:\\Users\\wenyunchun\\Desktop\\WpfTPL\\ShaderPan\\ShaderPan.csproj",
+      "packagesPath": "C:\\Users\\wenyunchun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wenyunchun\\Desktop\\WpfTPL\\ShaderPan\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\wenyunchun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\wenyunchun\\Desktop\\WpfTPL\\CodeGenerator\\CodeGenerator.csproj": {
+              "projectPath": "C:\\Users\\wenyunchun\\Desktop\\WpfTPL\\CodeGenerator\\CodeGenerator.csproj"
+            },
+            "C:\\Users\\wenyunchun\\Desktop\\WpfTPL\\ShaderCompiler\\ShaderCompiler.csproj": {
+              "projectPath": "C:\\Users\\wenyunchun\\Desktop\\WpfTPL\\ShaderCompiler\\ShaderCompiler.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

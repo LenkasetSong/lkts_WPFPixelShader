@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ShaderPan/1.0.0": {
+        "dependencies": {
+          "CodeGenerator": "1.0.0",
+          "sc": "1.0.0"
+        },
+        "runtime": {
+          "ShaderPan.dll": {}
+        }
+      },
+      "CodeGenerator/1.0.0": {
+        "runtime": {
+          "cg.exe": {}
+        }
+      },
+      "sc/1.0.0": {
+        "runtime": {
+          "sc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShaderPan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "sc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

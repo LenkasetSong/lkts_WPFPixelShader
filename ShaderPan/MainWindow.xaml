@@ -1,0 +1,51 @@
+﻿<Window x:Class="ShaderPan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShaderPan"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Margin="10" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="pathText" Margin="20 0"></TextBox>
+            <Button x:Name="choosBtn" Margin="10 0" Content="..." Width="45" Grid.Column="1" Click="ChoosBtn_Click"></Button>
+            <Button x:Name="applyBtn" Margin="10 0" Content="Apply" Width="45" Grid.Column="2" Click="ApplyBtn_Click"></Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="1" BorderBrush="Gray" Margin="5">
+                <Image x:Name="eftImg" Source="Images/ColorRange.png" Stretch="UniformToFill"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Gray" Margin="5" Grid.Row="1" >
+                <Image x:Name="oriImg" Source="Images/ColorRange.png" Stretch="UniformToFill"></Image>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="1" BorderBrush="Gray" Margin="5">
+                <TextBlock x:Name="codeText" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto"></TextBlock>
+            </Border>
+            <ListBox x:Name="logText" Grid.Row="1" Margin="5"></ListBox>
+        </Grid>
+    </Grid>
+</Window>
