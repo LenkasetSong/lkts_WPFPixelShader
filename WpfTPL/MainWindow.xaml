@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfTPL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTPL" WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d" ResizeMode="CanResizeWithGrip"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+    <Grid Width="500" Height="500">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Red" BorderThickness="1" HorizontalAlignment="Center">
+            <Image Source="/ColorRange.png">
+                <Image.Effect>
+                    <local:ToonShaderEffect Levels="8"></local:ToonShaderEffect>
+                </Image.Effect>
+            </Image>
+        </Border>
+        <WrapPanel ButtonBase.Click="Button_Click" Opacity="0.5">
+            <WrapPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="10"></Setter>
+                </Style>
+            </WrapPanel.Resources>
+            <Button Tag="0x0001">DoSomethingAsync1</Button>
+            <Button Tag="0x0002">DelayResult</Button>
+            <Button Tag="0x0003" Foreground="Red">DownloadStringWithRetries</Button>
+            <Button Tag="0x0004" Foreground="Red">DowloadStringWithTimeout</Button>
+            <Button Tag="0x0005">ProgressAsync</Button>
+            <Button Tag="0x0006">DowloadAllAsync</Button>
+        </WrapPanel>
+        <StatusBar Grid.Row="1">
+            <TextBlock x:Name="ststxt"></TextBlock>
+        </StatusBar>
+    </Grid>
+</Window>

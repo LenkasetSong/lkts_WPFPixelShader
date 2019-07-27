@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ColorRange.png" />
+    <None Remove="ToonShader.fx" />
+    <None Remove="ToonShader.ps" />
+    <None Remove="ToonShaderEffect.ps" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ColorRange.png" />
+    <Resource Include="ToonShader.fx" />
+    <Resource Include="ToonShader.ps" />
+  </ItemGroup>
+
+</Project>
