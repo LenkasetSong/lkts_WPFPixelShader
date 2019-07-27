@@ -1,0 +1,12 @@
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\obj\Debug\netcoreapp3.0\ShaderCompiler.csprojAssemblyReference.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\obj\Debug\netcoreapp3.0\ShaderCompiler.csproj.CoreCompileInputs.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\obj\Debug\netcoreapp3.0\ShaderCompiler.AssemblyInfoInputs.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\obj\Debug\netcoreapp3.0\ShaderCompiler.AssemblyInfo.cs
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\bin\Debug\netcoreapp3.0\sc.exe
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\bin\Debug\netcoreapp3.0\sc.deps.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\bin\Debug\netcoreapp3.0\sc.runtimeconfig.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\bin\Debug\netcoreapp3.0\sc.runtimeconfig.dev.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\bin\Debug\netcoreapp3.0\sc.dll
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\bin\Debug\netcoreapp3.0\sc.pdb
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\obj\Debug\netcoreapp3.0\sc.dll
+C:\Users\wenyunchun\Desktop\WpfTPL\ShaderCompiler\obj\Debug\netcoreapp3.0\sc.pdb
