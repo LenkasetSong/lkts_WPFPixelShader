@@ -1,0 +1,17 @@
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\ApiTPL.deps.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\ApiTPL.runtimeconfig.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\ApiTPL.runtimeconfig.dev.json
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\ApiTPL.dll
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\bin\Debug\netcoreapp2.2\ApiTPL.pdb
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.csprojAssemblyReference.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.csproj.CoreCompileInputs.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.RazorAssemblyInfo.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.RazorAssemblyInfo.cs
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.AssemblyInfoInputs.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.AssemblyInfo.cs
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.RazorTargetAssemblyInfo.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.dll
+C:\Users\wenyunchun\Desktop\WpfTPL\ApiTPL\obj\Debug\netcoreapp2.2\ApiTPL.pdb
