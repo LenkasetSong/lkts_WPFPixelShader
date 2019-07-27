@@ -1,0 +1,7 @@
+C:\Users\wenyunchun\Desktop\WpfTPL\CodeGenerator\obj\Debug\CodeGenerator.csprojAssemblyReference.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\CodeGenerator\obj\Debug\CodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\wenyunchun\Desktop\WpfTPL\CodeGenerator\bin\Debug\cg.exe.config
+C:\Users\wenyunchun\Desktop\WpfTPL\CodeGenerator\bin\Debug\cg.exe
+C:\Users\wenyunchun\Desktop\WpfTPL\CodeGenerator\bin\Debug\cg.pdb
+C:\Users\wenyunchun\Desktop\WpfTPL\CodeGenerator\obj\Debug\cg.exe
+C:\Users\wenyunchun\Desktop\WpfTPL\CodeGenerator\obj\Debug\cg.pdb
