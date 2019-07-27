@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTPL", "WpfTPL\WpfTPL.csproj", "{D86DBA1E-67B4-404F-8D12-AD9441FAA4E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTPL", "ApiTPL\ApiTPL.csproj", "{614698D4-0C69-4077-9782-DEE802500D6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShaderCompiler", "ShaderCompiler\ShaderCompiler.csproj", "{E4969362-5AFF-4F62-A0FC-44377460A598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{43FAD9F5-55AD-41DA-BFFF-87152687FB8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShaderPan", "ShaderPan\ShaderPan.csproj", "{8D3BB36C-E2D2-42EB-BE58-2BD65AB8C4E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderCompiler2", "ShaderCompiler2\ShaderCompiler2.csproj", "{D45FE621-7D89-41EB-848E-A847971F09D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderPan2", "ShaderPan2\ShaderPan2.csproj", "{647AFC0F-93D8-44FB-A886-0B1DBD0AF8D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86DBA1E-67B4-404F-8D12-AD9441FAA4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86DBA1E-67B4-404F-8D12-AD9441FAA4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86DBA1E-67B4-404F-8D12-AD9441FAA4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86DBA1E-67B4-404F-8D12-AD9441FAA4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614698D4-0C69-4077-9782-DEE802500D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614698D4-0C69-4077-9782-DEE802500D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614698D4-0C69-4077-9782-DEE802500D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614698D4-0C69-4077-9782-DEE802500D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4969362-5AFF-4F62-A0FC-44377460A598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4969362-5AFF-4F62-A0FC-44377460A598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4969362-5AFF-4F62-A0FC-44377460A598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4969362-5AFF-4F62-A0FC-44377460A598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FAD9F5-55AD-41DA-BFFF-87152687FB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FAD9F5-55AD-41DA-BFFF-87152687FB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FAD9F5-55AD-41DA-BFFF-87152687FB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FAD9F5-55AD-41DA-BFFF-87152687FB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3BB36C-E2D2-42EB-BE58-2BD65AB8C4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3BB36C-E2D2-42EB-BE58-2BD65AB8C4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3BB36C-E2D2-42EB-BE58-2BD65AB8C4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3BB36C-E2D2-42EB-BE58-2BD65AB8C4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45FE621-7D89-41EB-848E-A847971F09D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45FE621-7D89-41EB-848E-A847971F09D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45FE621-7D89-41EB-848E-A847971F09D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45FE621-7D89-41EB-848E-A847971F09D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647AFC0F-93D8-44FB-A886-0B1DBD0AF8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647AFC0F-93D8-44FB-A886-0B1DBD0AF8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647AFC0F-93D8-44FB-A886-0B1DBD0AF8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647AFC0F-93D8-44FB-A886-0B1DBD0AF8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA755F8-8D62-45CB-A876-B4F29F067A98}
+	EndGlobalSection
+EndGlobal
